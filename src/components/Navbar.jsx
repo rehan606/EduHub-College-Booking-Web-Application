@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='white shadow-sm'>
+        <div className=' bg-gradient-to-r from-[#4A0148] to-[#BE4748]  shadow-sm'>
             <div className="navbar  container mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
@@ -12,28 +12,28 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><Link href={"/"} > Home </Link></li>
-                        <li><Link href={"/colleges"} > Colleges </Link></li>
-                        <li><Link href={"/admission"} > Admission </Link></li>
-                        <li><Link href={"/myCollege"} > My College </Link></li>
-                        <li><Link href={"/profile"} > Profile </Link></li>
+                        className="menu menu-sm dropdown-content bg-gradient-to-r from-[#4A0148] to-[#BE4748] rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/"} > Home </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/colleges"} > Colleges </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/admission"} > Admission </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/myCollege"} > My College </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/profile"} > Profile </Link></li>
                         
                     </ul>
                     </div>
-                    <Link href="/" className="font-semibold text-xl cursor-pointer">Edu<span className='text-blue-500'>Hub</span> </Link>
+                    <Link href="/" className="font-semibold text-xl text-white cursor-pointer">Edu<span className='text-blue-500'>Hub</span> </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className='font-semibold hover:bg-blue-500 hover:text-white duration-300'><Link href={"/"} > Home </Link></li>
-                        <li className='font-semibold hover:bg-blue-500 hover:text-white duration-300'><Link href={"/colleges"} > Colleges </Link></li>
-                        <li className='font-semibold hover:bg-blue-500 hover:text-white duration-300'><Link href={"/admission"} > Admission </Link></li>
-                        <li className='font-semibold hover:bg-blue-500 hover:text-white duration-300'><Link href={"/myCollege"} > My College </Link></li>
-                        <li className='font-semibold hover:bg-blue-500 hover:text-white duration-300'><Link href={"/profile"} > Profile </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/"} > Home </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/colleges"} > Colleges </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/admission"} > Admission </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/myCollege"} > My College </Link></li>
+                        <li className='font-semibold uppercase text-white duration-300'><Link href={"/profile"} > Profile </Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link href={"/register"} className="btn bg-blue-500 text-white hover:bg-blue-600">Register</Link>
+                    <Link href={"/register"} className="btn bg-[#FFC107] uppercase  text-gray-600 hover:bg-blue-600 rounded-full px-8">Admission</Link>
                 </div>
             </div>
         </div>
