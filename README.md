@@ -58,19 +58,26 @@ EduHub is a full-featured MERN Stack-based college booking platform that allows 
 ```
 
 ## 🔐 Authentication
-Register/Login with Email & Password
-Google Sign-In
-Password Reset Option
-Protected Routes for:
-Viewing College Details
-Submitting Admission Form
-Writing/Viewing Reviews
+✅ Register/Login with Email & Password
+
+✅ Google Sign-In integration
+
+✅ Password Reset functionality
+
+✅ Protected Routes (accessible only after login), including:
+
+🔒 Viewing College Details
+
+🔒 Submitting Admission Form
+
+🔒 Writing and Viewing Reviews
 
 
 
 
 ## 🧪 How to Run Locally
 
+```
 # 1. Clone the repo
 git clone https://github.com/your-username/eduhub.git
 cd eduhub
@@ -86,6 +93,8 @@ NEXT_PUBLIC_FIREBASE_API_KEY=your-key
 
 # 4. Run the development server
 npm run dev
+
+```
 
 
 ## 🧑‍💻 Author
