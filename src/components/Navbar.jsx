@@ -21,7 +21,10 @@ const Navbar = () => {
                         
                     </ul>
                     </div>
-                    <Link href="/" className="font-semibold text-xl text-white cursor-pointer">Edu<span className='text-blue-500'>Hub</span> </Link>
+                    <h2 className="text-2xl font-bold text-white flex items-center gap-2 mb-4">
+                                <div className="w-6 h-6 bg-white rounded-sm"></div>
+                                <Link href="/" className="font-semibold text-xl uppercase md:text-2xl text-white cursor-pointer"> Edu<span  className='text-[#FFC107]'>Hub</span> </Link>
+                              </h2>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -33,7 +36,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link href={"/register"} className="btn bg-[#FFC107] uppercase  text-gray-600 hover:bg-blue-600 rounded-full px-8">Admission</Link>
+                    <Link href={"/register"} className="btn bg-[#FFC107] uppercase  text-gray-600 hover:bg-[#ffc107ea] rounded-full px-8">Admission</Link>
                 </div>
             </div>
         </div>
