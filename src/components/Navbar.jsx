@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className=' bg-gradient-to-r from-[#4A0148] to-[#BE4748]  shadow-sm'>
+        <div className=' bg-gradient-to-r from-[#4A0148] to-[#BE4748]  shadow-sm sticky z-50 top-0 left-0  '>
             <div className="navbar  container mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">

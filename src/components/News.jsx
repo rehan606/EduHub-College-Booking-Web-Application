@@ -39,10 +39,10 @@ const newsData = [
 
 const News = () => {
   return (
-    <section className="py-16 px-4 md:px-16 bg-white text-gray-700">
+    <section className="py-16 px-4 md:px-16 bg-gray-100 text-gray-700">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">News and Events</h2>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500 text-xl mt-2">
           Cum doctus civibus efficiantur in imperdiet deterruisset.
         </p>
       </div>
