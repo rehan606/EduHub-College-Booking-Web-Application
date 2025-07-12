@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const NotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white p-4 relative overflow-hidden">
@@ -23,12 +25,12 @@ const NotFound = () => {
         The page you're looking for doesn't exist or has been moved.
       </p>
 
-      <a
+      <Link
         href="/"
         className="mt-6 inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
       >
         Back to Home
-      </a>
+      </Link>
     </div>
   );
 };
