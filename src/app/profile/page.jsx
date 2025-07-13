@@ -6,7 +6,7 @@ const ProfilePage = () => {
           {/* Profile Image */}
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-purple-500 shadow-md">
             <img
-              src="https://i.pravatar.cc/300"
+              src="https://avatars.githubusercontent.com/u/66823918?v=4"
               alt="Profile"
               className="w-full h-full object-cover"
             />
