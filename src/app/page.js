@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner'
 import CollegeCards from '@/components/CollegeCards'
+import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import Gallery from '@/components/Gallery'
 // import Navbar from '@/components/Navbar'
@@ -13,6 +14,7 @@ const HomePage = () => {
         <div >
             {/* <Navbar/> */}
             <Banner/>
+            <Features/>
             <CollegeCards/>
             <Gallery/>
             <News/>
