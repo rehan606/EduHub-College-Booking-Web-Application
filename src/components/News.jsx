@@ -49,7 +49,7 @@ const News = () => {
 
       <div className="grid md:grid-cols-2 gap-8">
         {newsData.map((item) => (
-          <div key={item.id} className="flex gap-4">
+          <div key={item.id} className="flex gap-4 flex-col md:flex-row">
             <div className="relative min-w-[200px]">
               <img
                 src={item.img}
