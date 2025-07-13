@@ -1,5 +1,6 @@
 'use client'; // Only for Next.js App Router
 
+import Link from 'next/link';
 import { FaGoogle, FaFacebookF } from 'react-icons/fa';
 
 const Register = () => {
@@ -59,9 +60,9 @@ const Register = () => {
 
         <p className="text-sm text-center text-gray-500 mt-4">
           Already have an account?{' '}
-          <a href="/login" className="text-purple-600 hover:underline font-medium">
+          <Link href="/login" className="text-purple-600 hover:underline font-medium">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
