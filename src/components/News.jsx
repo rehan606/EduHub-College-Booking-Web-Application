@@ -50,11 +50,11 @@ const News = () => {
       <div className="grid md:grid-cols-2 gap-8">
         {newsData.map((item) => (
           <div key={item.id} className="flex gap-4 flex-col md:flex-row">
-            <div className="relative min-w-[200px]">
+            <div className="relative w-full md:min-w-[250px] ">
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-[200px] h-[150px] object-cover rounded-md"
+                className="w-full h-full md:w-full md:h-[150px] object-cover rounded-md"
               />
               <div className="absolute top-0 right-0 bg-yellow-400 text-center text-white text-lg p-4  font-bold">
                 <p className="leading-none ">28</p>
