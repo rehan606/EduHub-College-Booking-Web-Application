@@ -110,7 +110,7 @@ const Colleges = () => {
 
                 <button
                   onClick={() => router.push(`/college/${college.id}`)}
-                  className="mt-3 inline-block w-full text-center bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-lg font-medium transition"
+                  className="mt-3 inline-block w-full text-center bg-purple-600 hover:bg-yellow-600 cursor-pointer text-white py-2 rounded-md font-medium transition"
                 >
                   View Details
                 </button>
