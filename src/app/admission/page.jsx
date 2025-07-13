@@ -53,7 +53,7 @@ const Admission = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4 md:px-16">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Apply for Admission</h1>
+      <h1 className="text-3xl font-bold text-center text-gray-600 uppercase mb-6">Apply for Admission</h1>
 
       {/* College list */}
       <div className="flex flex-wrap justify-center gap-4 mb-10">
