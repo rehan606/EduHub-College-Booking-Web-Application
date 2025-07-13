@@ -15,7 +15,7 @@ const ProfilePage = () => {
           {/* Info */}
           <div className="flex-1 space-y-3 text-center md:text-left">
             <h2 className="text-2xl font-bold text-gray-800 uppercase">Rehan Khan</h2>
-            <p className="text-blue-600 font-medium">Front-End Developer</p>
+            <p className="text-yellow-600 font-medium">Front-End Developer</p>
             <p className="text-gray-600">
               Passionate about building user-friendly and modern web applications. 
               Skilled in HTML, CSS, JavaScript, and React. Constantly learning new tech.
@@ -49,7 +49,7 @@ const ProfilePage = () => {
 
             {/* Button */}
             <div className="mt-6">
-              <button className="w-full md:w-auto px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-yellow-600 transition">
+              <button className="w-full md:w-auto px-6 py-2 bg-purple-600 text-white rounded-md hover:bg-yellow-600 transition">
                 Edit Profile
               </button>
             </div>
