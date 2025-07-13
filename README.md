@@ -6,8 +6,8 @@ EduHub is a full-featured MERN Stack-based college booking platform that allows 
 
 ## 🚀 Live Website
 
-🔗 [Visit EduHub Live](https://your-eduhub-link.vercel.app)  
-*(Replace with your actual deployed link)*
+🔗 [Visit EduHub Live](https://eduhubcollege.netlify.app/)  
+
 
 ---
 
