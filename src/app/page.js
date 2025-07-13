@@ -15,8 +15,8 @@ const HomePage = () => {
             <Banner/>
             <CollegeCards/>
             <Gallery/>
-            <Reviews/>
             <News/>
+            <Reviews/>
             <Footer/>
         </div>
     )

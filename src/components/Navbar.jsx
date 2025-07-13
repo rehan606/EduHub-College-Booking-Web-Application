@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className=' bg-gradient-to-r from-[#4A0148] to-[#BE4748]  shadow-sm sticky z-50 top-0 left-0  
         '>
-            <div className="navbar  container mx-auto">
+            <div className="navbar  container mx-auto  ">
                 <div className="navbar-start ">
                     <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,7 +22,7 @@ const Navbar = () => {
                         
                     </ul>
                     </div>
-                    <h2 className="text-2xl font-bold text-white flex items-center gap-2 mb-4">
+                    <h2 className="text-2xl font-bold text-white flex items-center gap-2  ">
                                 <div className="w-6 h-6 bg-white rounded-sm"></div>
                                 <Link href="/" className="font-semibold text-xl uppercase md:text-2xl text-white cursor-pointer"> Edu<span  className='text-[#FFC107]'>Hub</span> </Link>
                               </h2>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link href={"/register"} className="btn bg-[#FFC107] uppercase  text-gray-600 hover:bg-[#ffc107ea] rounded-full px-8">Admission</Link>
+                    <Link href={"/register"} className="btn bg-[#FFC107] uppercase  text-gray-600 hover:bg-[#ffc107ea] rounded-full px-8">Register</Link>
                 </div>
             </div>
         </div>

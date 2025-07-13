@@ -29,7 +29,7 @@ const Reviews = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 md:px-16">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-gray-600">Student Reviews</h2>
+        <h2 className="text-3xl font-bold text-purple-500 uppercase">Student Reviews</h2>
         <p className="text-gray-500 text-xl">What our students are saying</p>
       </div>
 

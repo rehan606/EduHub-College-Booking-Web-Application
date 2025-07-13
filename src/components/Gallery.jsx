@@ -39,7 +39,7 @@ const Gallery = () => {
   return (
     <section className="w-full py-16 px-4 md:px-16 bg-white ">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-gray-500">Picture Gallery</h2>
+        <h2 className="text-3xl font-bold text-purple-500 uppercase">Picture Gallery</h2>
         <p className="text-gray-500 mt-2 text-xl">
           Cum doctus civibus efficiantur in imperdiet deterruisset.
         </p>
@@ -54,7 +54,7 @@ const Gallery = () => {
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black z-50 bg-opacity-50 opacity-0 group-hover:opacity-50 transition duration-300 flex flex-col items-center justify-center text-white text-center px-2">
+            <div className="absolute inset-0 bg-black  bg-opacity-50 opacity-0 group-hover:opacity-50 transition duration-300 flex flex-col items-center justify-center text-white text-center px-2">
               <FaSearch className="text-2xl mb-2" />
               <p className="text-sm font-medium">{item.title}</p>
             </div>
